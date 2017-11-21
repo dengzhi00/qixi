@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="title_text">18dp</dimen>
+    <dimen name="diviler_size">1dp</dimen>
+    <dimen name="music_name_size">15dp</dimen>
+    <dimen name="luncher_text_size">20dp</dimen>
+    <dimen name="shadow_whith">30dp</dimen>
+    <dimen name="content_behind_shadow_whith">30dp</dimen>
+    <dimen name="content_text">15dp</dimen>
+    <dimen name="count_music_num">12dp</dimen>
+    <dimen name="title_bar_hight">50dp</dimen>
+    <dimen name="main_music_name">10dp</dimen>
+    <dimen name="main_articl_name">8dp</dimen>
+</resources>

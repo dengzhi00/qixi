@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qixi.view.InsetsPercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/qixim1"
+    android:id="@+id/insets"
+    android:fitsSystemWindows="true">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/dv_welcome"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:src="@mipmap/qixim1"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:layout_height="match_parent" />-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:text="右滑，指纹退出"
+        android:textColor="#ffffff" />
+
+    <com.qixi.view.CoverView
+        android:id="@+id/cover"
+        android:layout_width="50dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/music"
+        android:transitionName="aaa"
+        app:layout_heightPercent="10%"
+        app:shape="circle"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:trackAlpha="255" />
+
+    <!--<com.qixi.view.StereoView-->
+    <!--android:id="@+id/stereoView"-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_marginTop="50dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@mipmap/qixi1" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@mipmap/qixi2" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@mipmap/qixi3" />-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@mipmap/qixi4" />-->
+
+    <!--</com.qixi.view.StereoView>-->
+
+</com.qixi.view.InsetsPercentRelativeLayout>

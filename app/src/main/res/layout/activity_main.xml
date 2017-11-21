@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qixi.view.InsetsPercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg03"
+    tools:context="com.qixi.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FB0F36"
+        android:text="邓专用" />
+    <TextView
+        android:layout_centerInParent="true"
+        android:text="七夕快乐"
+        android:textColor="#FB0F36"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.qixi.view.CoverView
+        android:id="@+id/mcover"
+        android:layout_width="50dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/music"
+        android:transitionName="aaa"
+        app:layout_heightPercent="10%"
+        app:shape="circle"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:trackAlpha="255" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="鄧"-->
+        <!--android:textColor="#FB0F36"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginBottom="150dp"-->
+        <!--android:layout_marginRight="100dp"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="許"-->
+        <!--android:textColor="#FB0F36"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="150dp"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="愛"-->
+        <!--android:textColor="#FB0F36"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="愛"-->
+        <!--android:textColor="#FB0F36"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:layout_marginRight="100dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="锁屏有惊喜...我自己都不信"
+        android:textColor="#FB0F36"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginRight="100dp"
+        />
+    <LinearLayout
+        android:id="@+id/relativelayout_music_bd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:background="@mipmap/search_edittext"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+             >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:text="@string/bd_music"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/content_text" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:text="@string/bd_music"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/count_music_num" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignBottom="@+id/textView2"
+                android:layout_toRightOf="@+id/textView2"
+                android:src="@mipmap/right_aeeow" />
+
+            <ImageButton
+                android:id="@+id/radom_begin_music"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="0dp"
+                android:background="@mipmap/radom_begin" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</com.qixi.view.InsetsPercentRelativeLayout>

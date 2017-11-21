@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_white">#FFFFFF</color>
+    <color name="luncher_pink_deep">#CD3278</color>
+    <color name="luncher_pink">#CD2990</color>
+    <color name="text_yellow">#d29114</color>
+    <color name="text_gray">#6f6c66</color>
+    <color name="text_black">#000000</color>
+    <color name="background_gray">#eeeeee</color>
+</resources>
